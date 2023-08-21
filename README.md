@@ -6,7 +6,7 @@ Welcome to the Random Wallpaper App repository! This Android application allows 
   <img src="screenshots/app_preview.png" alt="Random Wallpaper App Preview" width="50%">
 </p>
 
-## Features
+## Features 🌟
 
 - **Random Wallpaper**: Get a fresh and captivating wallpaper every time you open the app.
 - **Search**: Enter keywords to find wallpapers that match your interests.
@@ -16,21 +16,33 @@ Welcome to the Random Wallpaper App repository! This Android application allows 
 - **Apply Wallpaper**: Set your chosen wallpaper directly as your device's background.
 - **Download**: Download wallpapers to your device's gallery for later use.
 
-## Screenshots
+## Technologies Used 🛠️
+
+- Android Studio
+- Java
+- Pexels API
+- Retrofit (for API requests)
+- Picasso (for image loading)
+- RecyclerView (for displaying lists)
+- SQLite (for storing favorite wallpapers)
+- Permissions (for setting wallpaper and accessing device's gallery)
+- Material Design components
+
+## Screenshots 📸
 
 ![Home](screenshots/screenshot_home.png)
 ![Search](screenshots/screenshot_search.png)
 ![Categories](screenshots/screenshot_categories.png)
 ![Favorites](screenshots/screenshot_favorites.png)
 
-## Prerequisites
+## Prerequisites 📋
 
 Before you start, ensure you have the following:
 
 - [Android Studio](https://developer.android.com/studio): The official IDE for Android application development.
 - Pexels API Key: Obtain your API key from [Pexels](https://www.pexels.com/api/) to access their extensive wallpaper collection.
 
-## Installation
+## Installation ⚙️
 
 1. Clone this repository to your local machine:
 
@@ -44,7 +56,7 @@ Before you start, ensure you have the following:
 
 4. Build and run the application on an Android emulator or a physical device.
 
-## Usage
+## Usage 🚀
 
 1. Launch the Random Wallpaper App on your Android device.
 
@@ -56,17 +68,17 @@ Before you start, ensure you have the following:
 
 5. Apply the chosen wallpaper directly to your device's background or download it to your device's gallery for later use.
 
-## Configuration
+## Configuration ⚙️
 
 Customize the app to your liking:
 
-- **API Key**: Replace `YOUR_API_KEY` with your actual Pexels API key.
+- **API Key**: Replace `YOUR_PEXELS_API_KEY` with your actual Pexels API key.
 
-## Contributing
+## Contributing 👥
 
 Contributions are welcome! Feel free to report bugs, suggest improvements, or contribute through pull requests.
 
-## License
+## License 📜
 
 This project is licensed under the MIT License. Check out the [LICENSE](LICENSE) file for details.
 
