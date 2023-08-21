@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="@dimen/_7sdp"
+        android:orientation="vertical">
+
+
+        <EditText
+              android:id="@+id/editHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_50sdp"
+            android:ems="17"
+            android:layout_marginTop="15sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/customsearchview"
+            android:drawableRight="@drawable/baseline_search_24"
+            android:padding="@dimen/_7sdp"
+            android:hint="Search your wallpaper...."
+            android:paddingStart="20dp"
+            android:imeOptions="actionDone"
+            android:inputType="textPersonName"
+            android:focusableInTouchMode="true"
+
+
+
+
+
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+    <!-- main frame -->
+<LinearLayout
+    android:id="@+id/mailframelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/header"
+    android:layout_above="@+id/bottomBar">
+    <FrameLayout
+        android:id="@+id/mainframe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+
+    </FrameLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+
+        android:layout_alignParentBottom="true"
+        android:baselineAligned="true"
+        android:background="@drawable/bottomshape">
+
+        <FrameLayout
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+            <ImageView
+                android:id="@+id/homeicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/home_225" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/download"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/downloadIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/heart_svgrepo_com" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

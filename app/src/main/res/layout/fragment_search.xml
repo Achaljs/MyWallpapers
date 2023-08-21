@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.searchFragment">
+
+
+    <RelativeLayout
+        android:id="@+id/headerSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="@dimen/_10sdp"
+        android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/editHeadersearch"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_50sdp"
+        android:ems="17"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/customsearchview"
+        android:drawableRight="@drawable/baseline_search_24"
+        android:padding="@dimen/_10sdp"
+        android:hint="Search here...."
+        android:paddingStart="@dimen/_20sdp"
+        android:imeOptions="actionDone"
+        android:inputType="textPersonName"
+        android:focusableInTouchMode="true"
+
+
+
+
+
+        />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/searchText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:text="Search:Random"
+        android:textSize="20sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchRV"
+        />
+
+</LinearLayout>

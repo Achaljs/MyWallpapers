@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyWallpapers</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Top">Top Choices</string>
+    <string name="color">Color Pallet</string>
+    <string name="catog">Catogaries</string>
+    <string name="downloads">Favourites</string>
+    <string name="by">By Achal Jaiswal</string>
+</resources>

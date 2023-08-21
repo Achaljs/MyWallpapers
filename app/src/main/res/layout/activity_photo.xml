@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".photo"
+    android:fitsSystemWindows="true">
+
+
+<com.github.chrisbanes.photoview.PhotoView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/photoview"
+    android:scaleType="center"
+    />
+
+    <RelativeLayout
+        android:id="@+id/btlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="66dp">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/setButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_alignParentStart="true"
+            app:srcCompat="@drawable/icon8"
+           android:layout_marginStart="66dp"
+            android:clickable="true"
+            android:backgroundTint="@color/white"
+            android:alpha="0.4"
+
+             />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/downButton"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+            android:layout_marginEnd="66dp"
+
+            android:clickable="true"
+            app:srcCompat="@drawable/baseline_file_download_24"
+          android:onClick="download"
+            android:backgroundTint="@color/white"
+            android:alpha="0.4"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20sp"
+        android:text="Double tap to Like  "
+        android:textColor="#B1B0B0"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:drawableRight="@drawable/heart_svgrepo_com"/>
+</RelativeLayout>

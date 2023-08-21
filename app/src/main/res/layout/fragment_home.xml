@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/bestText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Top"
+        android:textSize="25sp"
+        android:padding="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        android:layout_marginTop="0dp"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+         android:layout_marginTop="@dimen/_7sdp"
+        android:id="@+id/BestRV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bestText"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/colorpallet"
+        android:orientation="vertical"
+        android:layout_below="@+id/BestRV"
+        android:padding="@dimen/_7sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/color"
+            android:textSize="25sp"
+            android:padding="@dimen/_7sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_below="@+id/BestRV"
+            android:layout_marginTop="@dimen/_7sdp"
+            />
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="@dimen/_7sdp"
+            android:id="@+id/colorRV"
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:layout_below="@+id/bestRv"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/catogary"
+        android:orientation="vertical"
+        android:layout_below="@+id/colorpallet"
+        android:padding="@dimen/_7sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/catog"
+            android:textSize="25sp"
+            android:padding="@dimen/_7sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+
+            android:layout_marginTop="@dimen/_7sdp"
+            />
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="@dimen/_7sdp"
+            android:id="@+id/catRV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
