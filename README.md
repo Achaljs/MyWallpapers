@@ -3,7 +3,7 @@
 Welcome to the Random Wallpaper App repository! This Android application allows you to discover and set beautiful wallpapers fetched from the Pexels API. Customize your device's look with stunning images, whether you're searching for something specific, exploring categories, or simply looking for inspiration.
 
 <p align="center">
-  <img src="screenshots/app_preview.png" alt="Random Wallpaper App Preview" width="50%">
+  <img src="screenshots/Screenshot_2023-08-21-13-09-10-118_com.example.mywallpapers.jpg" alt="Random Wallpaper App Preview" width="50%">
 </p>
 
 ## Features 🌟
@@ -52,7 +52,7 @@ Before you start, ensure you have the following:
 
 2. Open the project in Android Studio.
 
-3. Replace `YOUR_PEXELS_API_KEY` in the code with your actual Pexels API key.
+3. Replace `YOUR_API_KEY` in the code with your actual Pexels API key.
 
 4. Build and run the application on an Android emulator or a physical device.
 
@@ -72,7 +72,7 @@ Before you start, ensure you have the following:
 
 Customize the app to your liking:
 
-- **API Key**: Replace `YOUR_PEXELS_API_KEY` with your actual Pexels API key.
+- **API Key**: Replace `YOUR_API_KEY` with your actual Pexels API key.
 
 ## Contributing 👥
 
