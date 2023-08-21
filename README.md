@@ -3,7 +3,7 @@
 Welcome to the Random Wallpaper App repository! This Android application allows you to discover and set beautiful wallpapers fetched from the Pexels API. Customize your device's look with stunning images, whether you're searching for something specific, exploring categories, or simply looking for inspiration.
 
 <p align="center">
-  <img src="app/src/main/res/drawable/wallpaper.png" alt="Random Wallpaper App Preview" width="50%">
+  <img src="app/src/main/res/drawable/wallpaper.png" alt="Random Wallpaper App Preview" width="30%">
 </p>
 
 ## Features 🌟
@@ -21,19 +21,25 @@ Welcome to the Random Wallpaper App repository! This Android application allows 
 - Android Studio
 - Java
 - Pexels API
-- Retrofit (for API requests)
-- Picasso (for image loading)
+- Volley (for API requests)
+- Glide (for image loading)
 - RecyclerView (for displaying lists)
-- SQLite (for storing favorite wallpapers)
+- SQLite(Room Library) (for storing favorite wallpapers)
 - Permissions (for setting wallpaper and accessing device's gallery)
 - Material Design components
 
 ## Screenshots 📸
 
-![Home](screenshots/screenshot_home.png)
-![Search](screenshots/screenshot_search.png)
-![Categories](screenshots/screenshot_categories.png)
-![Favorites](screenshots/screenshot_favorites.png)
+<p align="center">
+  <img src="screenshots/Screenshot_2023-08-21-13-09-58-324_com.example.mywallpapers.jpg" alt="Home" width="30%">
+  <img src="screenshots/Screenshot_2023-08-21-13-14-07-188_com.example.mywallpapers.jpg" alt="Search" width="30%">
+    <img src="screenshots/Screenshot_2023-08-21-13-15-39-655_com.example.mywallpapers.jpg" alt="Apply" width="30%">
+</p>
+
+<p align="center">
+  <img src="screenshots/Screenshot_2023-08-21-13-14-07-188_com.example.mywallpapers.jpg" alt="Categories" width="30%">
+  <img src="screenshots/Screenshot_2023-08-21-13-20-15-194_com.example.mywallpapers.jpg" alt="Favorites" width="30%">
+</p>
 
 ## Prerequisites 📋
 
